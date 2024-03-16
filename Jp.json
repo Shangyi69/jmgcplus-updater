@@ -1,0 +1,36 @@
+{
+  "Version": "1",
+  "ReleaseNotes": "Actualización Nueva n10",
+  "UrlUpdate": "",
+  "Sms": "",
+  "LogoLink": "",
+  "BackgroundLink": "",
+  "CheckUser": "true",
+  "Servers": [
+    {
+      "Name": "THAILAND",
+      "TYPE": "premium",
+      "sFLAG": "th.png",
+      "ServerIP": "104.18.11.207",
+      "CheckUser": "http://54.39.161.221:8181/checkUser",
+      "ServerPort": "80",
+      "SSLPort": "443",
+      "DomainIP": "",
+      "DomainPort": "",
+      "SlowServer": "",       
+      "pKey": "",
+      "hDNS": ""
+    }
+  ],
+  "Networks": [
+    {
+       "Name": "TRUE",
+        "pFLAG": "vi.png",
+       "Payload": "GET / HTTP/1.1[crlf]Host: error.phoeshan.com[crlf]Upgrade: websocket[crlf][crlf]",
+       "SNI": "",
+       "ProxyHost": "",
+       "ProxyPort": "", 
+       "cInfo2": ""
+    }
+  ]
+}
